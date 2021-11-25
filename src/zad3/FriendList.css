@@ -1,0 +1,59 @@
+.friend-list {
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  height: 80px;
+  width: 350px;
+  background-color: #fff;
+  margin-top: 50px;
+  display: flex;
+  box-shadow: 0px 3px 10px 0px #000;
+  border-radius: 2%;
+}
+
+.item:hover {
+  background-color: khaki;
+  cursor: pointer;
+}
+
+.user-avatar {
+  padding-top: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.user-name {
+  margin: 0;
+  line-height: 70px;
+  color: #7c7c7c;
+  margin-left: 15px;
+}
+
+.status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 30px 30px;
+  border-radius: 50%;
+  background-color: #7c7c7c;
+}
+
+.online {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 30px 30px;
+  border-radius: 50%;
+  background-color: forestgreen;
+}
+
+.offline {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 30px 30px;
+  border-radius: 50%;
+  background-color: crimson;
+}
